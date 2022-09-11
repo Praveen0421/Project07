@@ -1,0 +1,257 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One:wght@200;300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+nav {
+  position: relative;
+  top: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.nav-items {
+  display: flex;
+}
+
+.logo {
+  position: relative;
+  height: 45px;
+  left: -40px;
+}
+
+.item {
+  list-style-type: none;
+  margin: 0px 40px;
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.home {
+  font-size: 26px;
+  font-weight: 700;
+  color: #ff6004;
+}
+
+.icon {
+  position: relative;
+  left: 50px;
+  height: 30px;
+}
+.bar {
+  display: none;
+  height: 50px;
+}
+.contents {
+  position: relative;
+  top: 80px;
+  padding-bottom: 40px;
+}
+
+.product {
+  position: relative;
+  left: 70px;
+  display: flex;
+  align-items: center;
+  margin-top: 80px;
+  font-family: Poppins;
+  font-size: 45px;
+  font-weight: 400;
+  max-width: 600px;
+}
+
+.product-type {
+  position: relative;
+  font-family: Fredoka One;
+  font-size: 85px;
+  left: 72px;
+  font-weight: 400;
+  max-width: 900px;
+}
+.circle-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.circle {
+  position: relative;
+  left: 15px;
+  height: 50px;
+}
+
+.headphone {
+  height: 550px;
+}
+
+.product-50off {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  top: -60px;
+  right: 150px;
+}
+
+.discount {
+  position: absolute;
+  left: -48px;
+  bottom: 220px;
+}
+
+.offer {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  bottom: 45px;
+  left: 25px;
+}
+
+.tag-discount {
+  position: relative;
+  top: 10px;
+  font-family: Fredoka One;
+  font-size: 14px;
+  color: #fff;
+}
+
+.discount-off {
+  font-family: Fredoka One;
+  font-size: 55px;
+  color: #fff;
+}
+
+.sticker {
+  height: 160px;
+}
+
+.color-avilable {
+  display: flex;
+  position: relative;
+  margin-top: 10px;
+}
+
+.yellow {
+  position: relative;
+  margin: 0px 18px;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background: rgb(255, 226, 4);
+}
+
+.orange {
+  position: relative;
+  margin: 0px 18px;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background: #ff6004;
+}
+
+.black {
+  position: relative;
+  margin: 0px 18px;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background: #111;
+}
+
+.cart {
+  position: relative;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  width: 120px;
+  border-radius: 50px;
+  background: #ff6004;
+  color: #fff;
+}
+
+.features {
+  position: relative;
+  max-width: 500px;
+  margin-top: 80px;
+  left: 180px;
+}
+
+.feature {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.feature-text {
+  position: relative;
+  left: 15px;
+}
+
+.feature-text2,
+.plus2 {
+  position: relative;
+  margin: 15px 0px;
+}
+
+.plus {
+  height: 35px;
+  background-color: #ff6004;
+  border-radius: 50px;
+}
+
+.feature-text {
+  font-family: Poppins;
+  font-size: 26px;
+}
+
+.info {
+  position: relative;
+  left: 70px;
+  margin-top: 70px;
+  font-family: Poppins;
+  font-size: 18px;
+  max-width: 1000px;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+}
+
+.button {
+  position: relative;
+  margin-top: 30px;
+  font-size: 22px;
+  font-family: Poppins;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 65px;
+  width: 210px;
+  border-radius: 50px;
+  background: #ff6004;
+  color: #fff;
+}
+
+.btn1 {
+  position: relative;
+  margin-left: 70px;
+  margin-right: 15px;
+}
+
+.btn2 {
+  position: relative;
+  margin-left: 15px;
+}
+.cart {
+  position: relative;
+  margin-top: 50px;
+}

@@ -1,0 +1,569 @@
+@media only screen and (max-width: 1280px) {
+  nav {
+    display: flex;
+    align-items: center;
+  }
+  .logo {
+    position: relative;
+    height: 40px;
+    left: 0px;
+  }
+  .item {
+    list-style-type: none;
+    margin: 0px 30px;
+    font-family: Poppins;
+    font-size: 28px;
+    font-weight: 300;
+  }
+
+  .home {
+    font-weight: 600;
+  }
+
+  .icon {
+    height: 30px;
+  }
+  .bar {
+    display: none;
+  }
+  .contents {
+    position: relative;
+    top: 80px;
+    padding-bottom: 40px;
+  }
+
+  .product-type {
+    font-size: 65px;
+  }
+
+  .circle {
+    height: 38px;
+  }
+
+  .headphone {
+    height: 500px;
+  }
+
+  .product-50off {
+    top: -75px;
+    right: 0px;
+  }
+
+  .discount {
+    position: absolute;
+    left: -50px;
+    bottom: 200px;
+  }
+
+  .offer {
+    bottom: 45px;
+    left: 32px;
+  }
+
+  .tag-discount {
+    font-size: 14px;
+  }
+
+  .discount-off {
+    font-size: 45px;
+  }
+
+  .sticker {
+    height: 150px;
+  }
+
+  .features {
+    position: relative;
+    max-width: 500px;
+    margin-top: 40px;
+    left: 150px;
+  }
+
+  .feature-text {
+    position: relative;
+    left: 10px;
+  }
+
+  .feature-text2,
+  .plus2 {
+    position: relative;
+    margin: 15px 0px;
+  }
+
+  .feature-text {
+    font-size: 25px;
+  }
+
+  .info {
+    font-size: 15px;
+  }
+
+  .button {
+    margin-top: 40px;
+    font-size: 18px;
+    height: 50px;
+    width: 170px;
+  }
+
+  .btn1 {
+    position: relative;
+    margin-left: 70px;
+    margin-right: 15px;
+  }
+
+  .btn2 {
+    position: relative;
+    margin-left: 15px;
+  }
+  .cart {
+    position: relative;
+    margin-top: 43px;
+  }
+}
+/* 1024 */
+@media only screen and (max-width: 1024px) {
+  .logo {
+    position: relative;
+    height: 35px;
+    left: 10px;
+  }
+  .item {
+    font-size: 20px;
+  }
+
+  .home {
+    font-size: 22px;
+  }
+
+  .icon {
+    left: 0px;
+    height: 25px;
+  }
+
+  .product {
+    left: 40px;
+    font-size: 40px;
+  }
+
+  .product-type {
+    font-size: 55px;
+    left: 42px;
+  }
+
+  .headphone {
+    height: 400px;
+  }
+
+  .product-50off {
+    top: -50px;
+    right: 0px;
+  }
+
+  .discount {
+    position: absolute;
+    left: -50px;
+    bottom: 195px;
+  }
+
+  .offer {
+    bottom: 45px;
+    left: 34px;
+  }
+
+  .tag-discount {
+    top: 0px;
+    font-size: 14px;
+  }
+
+  .discount-off {
+    font-size: 35px;
+  }
+
+  .sticker {
+    height: 130px;
+  }
+
+  .color-avilable {
+    margin-top: 30px;
+  }
+
+  .features {
+    max-width: 500px;
+    margin-top: 30px;
+    left: 95px;
+  }
+
+  .feature {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+
+  .feature-text {
+    position: relative;
+    left: 10px;
+  }
+
+  .feature-text2,
+  .plus2 {
+    position: relative;
+    margin: 15px 0px;
+  }
+
+  .plus {
+    height: 30px;
+    background-color: #ff6004;
+    border-radius: 50px;
+  }
+
+  .feature-text {
+    font-family: Poppins;
+    font-size: 20px;
+  }
+
+  .info {
+    left: 40px;
+    font-size: 13px;
+    max-width: 800px;
+  }
+
+  .buttons {
+    display: flex;
+    align-items: center;
+  }
+
+  .btn1 {
+    position: relative;
+    margin-left: 40px;
+    margin-right: 15px;
+  }
+
+  .btn2 {
+    position: relative;
+    margin-left: 15px;
+  }
+  .cart {
+    position: relative;
+    margin-top: 40px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .nav-items,
+  .icon {
+    display: none;
+  }
+
+  .logo {
+    position: relative;
+    left: -100px;
+  }
+
+  .bar {
+    display: block;
+    position: relative;
+    right: -120px;
+  }
+  .contents {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+  }
+
+  .product {
+    left: 0px;
+    font-size: 45px;
+    font-weight: 400;
+  }
+
+  .product-type {
+    left: 0px;
+    font-size: 55px;
+  }
+
+  .circle {
+    height: 45px;
+  }
+
+  .headphone {
+    height: 500px;
+  }
+
+  .product-50off {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
+  }
+
+  .discount {
+    bottom: 200px;
+  }
+
+  .offer {
+    bottom: 45px;
+    left: 34px;
+  }
+
+  .tag-discount {
+    font-size: 14px;
+  }
+
+  .discount-off {
+    font-size: 40px;
+  }
+
+  .sticker {
+    height: 150px;
+  }
+
+  .cart {
+    height: 30px;
+    width: 120px;
+  }
+
+  .features {
+    margin-top: 50px;
+    left: -120px;
+  }
+
+  .plus {
+    height: 30px;
+  }
+
+  .feature-text {
+    font-size: 30px;
+  }
+
+  .info {
+    left: 0px;
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .button {
+    position: relative;
+    margin-top: 40px;
+    font-size: 18px;
+    height: 50px;
+    width: 170px;
+  }
+
+  .btn1 {
+    margin-right: 15px;
+    margin-left: 40px;
+  }
+
+  .btn2 {
+    margin-left: 40px;
+  }
+  .cart {
+    margin-top: 20px;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .logo {
+    left: -50px;
+    height: 35px;
+  }
+
+  .bar {
+    height: 40px;
+    right: -60px;
+  }
+
+  .product {
+    font-size: 35px;
+  }
+
+  .product-type {
+    font-size: 42px;
+  }
+
+  .circle {
+    height: 35px;
+  }
+
+  .headphone {
+    height: 380px;
+  }
+
+  .discount {
+    position: absolute;
+    left: -40px;
+    bottom: 135px;
+  }
+
+  .offer {
+    bottom: 40px;
+    left: 24px;
+  }
+
+  .tag-discount {
+    font-size: 12px;
+  }
+
+  .discount-off {
+    font-size: 35px;
+  }
+
+  .sticker {
+    height: 120px;
+  }
+  .color-avilable {
+    margin-top: 10px;
+  }
+
+  .yellow {
+    margin: 0px 12px;
+    height: 25px;
+    width: 25px;
+  }
+
+  .orange {
+    margin: 0px 12px;
+    height: 25px;
+    width: 25px;
+  }
+
+  .black {
+    margin: 0px 12px;
+    height: 25px;
+    width: 25px;
+  }
+
+  .features {
+    margin-top: 20px;
+    left: -90px;
+  }
+
+  .feature-text {
+    font-size: 18px;
+  }
+
+  .info {
+    font-size: 13px;
+    margin-top: 50px;
+  }
+
+  .button {
+    margin-top: 50px;
+    height: 40px;
+    width: 150px;
+  }
+
+  .btn1 {
+    position: relative;
+    margin-right: 50px;
+    margin-left: 0px;
+  }
+
+  .btn2 {
+    position: relative;
+    margin-left: 50px;
+  }
+  .cart {
+    margin-top: 20px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .logo {
+    left: -50px;
+    height: 30px;
+  }
+
+  .bar {
+    height: 35px;
+    right: -60px;
+  }
+
+  .contents {
+    padding-bottom: 20px;
+  }
+
+  .product {
+    left: 0px;
+    margin-top: 80px;
+    font-size: 25px;
+  }
+
+  .product-type {
+    font-family: Fredoka One;
+    font-size: 30px;
+  }
+
+  .circle {
+    position: relative;
+    left: 5px;
+    height: 25px;
+  }
+
+  .headphone {
+    height: 280px;
+  }
+
+  .discount {
+    left: -24px;
+    bottom: 120px;
+  }
+
+  .offer {
+    display: flex;
+    bottom: 25px;
+    left: 15px;
+  }
+
+  .tag-discount {
+    top: 2px;
+    font-size: 8px;
+  }
+
+  .discount-off {
+    font-size: 25px;
+  }
+
+  .sticker {
+    height: 80px;
+  }
+
+  .yellow,
+  .orange,
+  .black {
+    position: relative;
+    margin: 0px 8px;
+    height: 20px;
+    width: 20px;
+  }
+
+  .features {
+    position: relative;
+
+    left: -20px;
+  }
+
+  .feature-text {
+    position: relative;
+    left: 10px;
+  }
+  .button {
+    font-size: 15px;
+  }
+  .buttons {
+    margin-top: -20px;
+  }
+
+  .btn1 {
+    position: relative;
+    margin-right: 10px;
+  }
+
+  .btn2 {
+    position: relative;
+    margin-left: 10px;
+  }
+}
